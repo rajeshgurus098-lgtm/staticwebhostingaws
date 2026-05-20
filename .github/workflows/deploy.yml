@@ -17,7 +17,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.VWs8QXjHRZHZXSTUU3eL4pz1YKxIMdLrjKE37ob8 }}
           aws-secret-access-key: ${{ secrets.AKIAYXXHE2YLO5ZCFL37 }}
-          aws-region: ${{ secrets.ap-southeast-2 }}
+          aws-region: ${{ ap-south-1 }}
 
       - name: Deploy to S3
         run: |
